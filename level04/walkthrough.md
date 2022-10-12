@@ -97,7 +97,7 @@
       0x080486d6 <+14>:	call   0x8048550 <fork@plt>
       0x080486db <+19>:	mov    DWORD PTR [esp+0xac],eax
 
-      # memset(buffer[136], 0, 128)
+      # memset(buffer[134], 0, 128)
       0x080486e2 <+26>:	lea    ebx,[esp+0x20]
       0x080486e6 <+30>:	mov    eax,0x0
       0x080486eb <+35>:	mov    edx,0x20

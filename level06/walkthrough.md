@@ -319,10 +319,10 @@ gdb-peda$ pdisas main
     0x08048803 <+187>:	mov    DWORD PTR [ebp-0x10],eax
 
     # i = 0
-    0x08048806 <+190>:	mov    DWORD PTR [ebp-0x14],0x0         ; int i @ ebp-0x14 = 0
+    0x08048806 <+190>:	mov    DWORD PTR [ebp-0x14],0x0
 
     # while(i < len) (auth+275)
-    0x0804880d <+197>:	jmp    0x804885b <auth+275>             ; jump <+275>
+    0x0804880d <+197>:	jmp    0x804885b <auth+275>
 
     # ... if login[i] <= 31   return(1)
     0x0804880f <+199>:	mov    eax,DWORD PTR [ebp-0x14]
